@@ -5,14 +5,11 @@ class Solution {
         int sum=0;
         for(int j=0;j<accounts[i].length;j++){
             sum=sum+accounts[i][j];
-            
+            }
+            max=Math.max(max,sum);
         }
-        if(sum>max){
-            max=sum;
-        }
-        
+        return max;
        } 
        
-       return max;
+       
     }
-}
