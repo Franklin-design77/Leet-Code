@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
     public String reverseVowels(String s) {
         char []name=s.toCharArray();
         int left=0;
@@ -28,10 +28,11 @@ class Solution {
         }
     
 }
+*/
 
 
 
-/*class Solution {
+class Solution {
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();
         int left = 0, right = arr.length - 1;
@@ -61,4 +62,4 @@ class Solution {
                c=='A'||c=='E'||c=='I'||c=='O'||c=='U';
     }
 }
-*/
+
