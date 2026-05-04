@@ -19,7 +19,7 @@ class Solution {
                 right--;
             }
         }
-        return new String(name);
+        return String.valueOf(name);
     }
     private boolean isVowels(char c){
             return "AEIOUaeiou".indexOf(c)!=-1;
